@@ -2,15 +2,17 @@
 
 ## Make sure you move the files/folders accordingly
 
-doas.conf -> /etc/doas.conf
+doas.conf -> /etc/doas.conf (openbsd only)
 
 kshrc -> ~/.kshrc
 
+rc.conf.local -> /etc/rc.conf.local (openbsd only)
+
 vimrc -> ~/.vimrc
 
-xinitrc -> ~/.xinitrc
-
 vim -> ~/.vim
+
+xinitrc -> ~/.xinitrc
 
 
 ## Script descriptions

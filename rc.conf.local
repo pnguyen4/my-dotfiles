@@ -1,0 +1,12 @@
+apmd_flags="-A"
+dhcpd_flags=em0
+dnscrypt_proxy2_flags=-E -m1 -R d0wn-random-ns2 -a 127.0.0.1:41
+dnscrypt_proxy_flags=-E -m1 -R d0wn-us-ns4 -a 127.0.0.1:40
+multicast=YES
+openvpn_enable="YES"
+openvpn_if="tun"
+pkg_scripts=dnscrypt_proxy2 dnscrypt_proxy
+sndiod_flags=NO
+sshd_flags=NO
+unbound_flags=
+unbound_flags=-c /etc/unbound.conf
