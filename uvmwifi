@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# -wpakey: delete the pre-shared wpa key and disable wpa
+ifconfig athn0 -wpakey
+
+# nwid [SSID]: in this case "UVM"
+# wpa: enable wpa
+# wpaakms [protocol]: in this case "802.1x", otherwise known as wpa enterprise
+# up: mark interface up
+ifconfig athn0 nwid UVM wpa wpaakms 802.1x up
+
+# retrieve settiings (user, pass, auth options) from configuration file
+wpa_supplicant -Bc /etc/wpa_supplicant.conf -D openbsd -i athn0
+
+# start dhcp client
+dhclient athn0
+rcctl restart unbound

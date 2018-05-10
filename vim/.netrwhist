@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/flamestormp/Downloads'
+let g:netrw_dirhist_2='/home/flamestormp/.xombrero'
+let g:netrw_dirhist_3='/home/flamestormp/torrents'
+let g:netrw_dirhist_4='/home/flamestormp/.weechat/perl'
+let g:netrw_dirhist_5='/home/flamestormp/.weechat/perl/autoload'
+let g:netrw_dirhist_6='/home/flamestormp/.mpv'
+let g:netrw_dirhist_7='/home/flamestormp/workspace/test/src'
+let g:netrw_dirhist_8='/home/flamestormp/workspace/test/src/test'
+let g:netrw_dirhist_9='/home/flamestormp/.vim'

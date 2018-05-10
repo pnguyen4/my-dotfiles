@@ -1,0 +1,2 @@
+#!/bin/sh
+sndiod -ddd -e s16 -r 44100 -f rsnd/1
