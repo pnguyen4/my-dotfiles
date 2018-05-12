@@ -12,6 +12,8 @@ vimrc -> ~/.vimrc
 
 vim -> ~/.vim
 
+wpa_supplicant.conf -> /etc/wpa_supplicant.conf
+
 xinitrc -> ~/.xinitrc
 
 
