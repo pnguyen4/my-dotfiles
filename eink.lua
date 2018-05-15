@@ -1,0 +1,37 @@
+-- Eight-color scheme
+local lexers = vis.lexers
+-- eink
+lexers.STYLE_DEFAULT ='back:black,fore:#666666'
+lexers.STYLE_NOTHING = 'back:black'
+lexers.STYLE_CLASS = 'bold'
+lexers.STYLE_COMMENT = 'fore:#666666,italics'
+lexers.STYLE_CONSTANT = 'bold'
+lexers.STYLE_DEFINITION = 'bold'
+lexers.STYLE_ERROR = 'italics'
+lexers.STYLE_FUNCTION = 'bold'
+lexers.STYLE_KEYWORD = 'bold'
+lexers.STYLE_LABEL = 'bold'
+lexers.STYLE_NUMBER = 'bold'
+lexers.STYLE_OPERATOR = 'bold'
+lexers.STYLE_REGEX = 'bold'
+lexers.STYLE_STRING = 'underlined'
+lexers.STYLE_PREPROCESSOR = 'bold'
+lexers.STYLE_TAG = 'bold'
+lexers.STYLE_TYPE = 'bold'
+lexers.STYLE_VARIABLE = 'bold'
+lexers.STYLE_WHITESPACE = ''
+lexers.STYLE_EMBEDDED = 'bold'
+lexers.STYLE_IDENTIFIER = 'fore:#666666'
+
+lexers.STYLE_LINENUMBER = 'fore:#666666'
+lexers.STYLE_LINENUMBER_CURSOR = lexers.STYLE_LINENUMBER
+lexers.STYLE_CURSOR = 'reverse'
+lexers.STYLE_CURSOR_PRIMARY = lexers.STYLE_CURSOR..',fore:yellow'
+lexers.STYLE_CURSOR_LINE = 'underlined'
+lexers.STYLE_COLOR_COLUMN = 'back:cyan'
+lexers.STYLE_SELECTION = 'back:white'
+lexers.STYLE_STATUS = 'reverse'
+lexers.STYLE_STATUS_FOCUSED = 'reverse,bold'
+lexers.STYLE_SEPARATOR = lexers.STYLE_DEFAULT
+lexers.STYLE_INFO = 'fore:default,back:default,bold'
+lexers.STYLE_EOF = ''

@@ -1,6 +1,7 @@
-alias ls='colorls -GF'
 alias doas='doas '
 alias poweroff='doas halt -p'
+alias neofetch='echo "\n" && neofetch --speed_type max --speed_shorthand on --gtk3 off --disable uptime model --ascii_distro openbsd_small'
+alias vim='vise'
 
 set -A complete_rcctl_1 -- disable enable get ls order set
 set -A complete_rcctl_2 -- $(ls /etc/rc.d)

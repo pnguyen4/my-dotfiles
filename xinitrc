@@ -49,6 +49,8 @@ slstatus &
 xsetroot -solid black &
 sct 6000 &
 xbacklight -set 50 &
+/usr/local/libexec/tray-app/sound &
+xcompmgr &
 exec dwm
 
 #if [ "$SSH_AGENT_PID" ]; then

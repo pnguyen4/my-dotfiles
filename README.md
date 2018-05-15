@@ -4,13 +4,19 @@
 
 doas.conf -> /etc/doas.conf (openbsd only)
 
+eink.lua -> /usr/local/share/vis/themes/eink.lua
+
 kshrc -> ~/.kshrc
+
+profile -> ~/.profile
 
 rc.conf.local -> /etc/rc.conf.local (openbsd only)
 
 vimrc -> ~/.vimrc
 
 vim -> ~/.vim
+
+visrc.lua -> /usr/local/share/vis/visrc.lua
 
 wpa_supplicant.conf -> /etc/wpa_supplicant.conf
 
